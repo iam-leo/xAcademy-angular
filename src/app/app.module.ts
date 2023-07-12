@@ -1,14 +1,20 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+//Material
+import { MatButtonModule } from '@angular/material/button';
+
 import { AppComponent } from './app.component';
+import { ListaComponent } from './components/lista/lista.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListaComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
