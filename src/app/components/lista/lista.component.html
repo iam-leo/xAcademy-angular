@@ -1,0 +1,10 @@
+<ul>
+    <li
+        *ngFor="let producto of listaProductos"    
+    >
+        <div class="content-data">
+            <p>{{ producto.nombre }}:</p>
+            <p class="cost">{{ producto.costo }}</p>
+        </div>
+    </li>
+</ul>
